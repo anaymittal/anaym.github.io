@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Learn about aerobraking, a spaceflight maneuver that uses atmospheric drag to slow down spacecraft efficiently.">
+    <title>Aerobraking - Space Maneuver Technique</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+        }
+        
+        header {
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            color: white;
+            padding: 40px 30px;
+            text-align: center;
+        }
+        
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+        
+        header p {
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+        
+        main {
+            padding: 40px 30px;
+        }
+        
+        section {
+            margin-bottom: 40px;
+        }
+        
+        h2 {
+            color: #1e3c72;
+            font-size: 1.8em;
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 3px solid #667eea;
+        }
+        
+        h3 {
+            color: #2a5298;
+            font-size: 1.3em;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+        
+        p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+        
+        .highlight-box {
+            background: #f0f4ff;
+            border-left: 4px solid #667eea;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+        
+        ul {
+            margin-left: 30px;
+            margin-bottom: 15px;
+        }
+        
+        li {
+            margin-bottom: 10px;
+        }
+        
+        .process-steps {
+            background: #fafafa;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        
+        .process-steps ol {
+            margin-left: 20px;
+        }
+        
+        .process-steps li {
+            margin-bottom: 15px;
+            padding-left: 10px;
+        }
+        
+        .benefits {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin: 20px 0;
+        }
+        
+        .benefit-card {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        
+        .benefit-card h3 {
+            color: white;
+            margin-top: 0;
+            font-size: 1.2em;
+        }
+        
+        footer {
+            background: #f8f9fa;
+            padding: 20px 30px;
+            text-align: center;
+            color: #666;
+            border-top: 1px solid #e0e0e0;
+        }
+        
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2em;
+            }
+            
+            header p {
+                font-size: 1em;
+            }
+            
+            main {
+                padding: 30px 20px;
+            }
+            
+            h2 {
+                font-size: 1.5em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🛰️ Aerobraking</h1>
+            <p>Slowing Spacecraft Using Atmospheric Drag</p>
+        </header>
+        
+        <main>
+            <section id="introduction">
+                <h2>What is Aerobraking?</h2>
+                <p>
+                    Aerobraking is an innovative spaceflight maneuver used to slow down a spacecraft by using the drag force 
+                    produced when it passes through a planet's atmosphere. Instead of relying solely on rocket propulsion—which 
+                    requires significant amounts of fuel—a spacecraft strategically dips into the upper layers of the atmosphere 
+                    at the low point of its orbit (called periapsis), allowing atmospheric molecules to create drag and gradually 
+                    slow it down.
+                </p>
+                <div class="highlight-box">
+                    <strong>Key Concept:</strong> By using atmospheric drag over multiple orbital passes, spacecraft can change 
+                    their orbits without burning large amounts of fuel, making missions more efficient and cost-effective.
+                </div>
+            </section>
+            
+            <section id="benefits">
+                <h2>Why Use Aerobraking?</h2>
+                <div class="benefits">
+                    <div class="benefit-card">
+                        <h3>⛽ Fuel Efficiency</h3>
+                        <p>
+                            Drastically reduces the amount of fuel needed for orbit changes, allowing spacecraft to carry more 
+                            scientific instruments or payloads instead of extra propellant.
+                        </p>
+                    </div>
+                    <div class="benefit-card">
+                        <h3>💰 Cost Reduction</h3>
+                        <p>
+                            Less fuel means smaller rockets and less expensive missions. Fuel savings can be so significant that 
+                            payload mass can sometimes be doubled on interplanetary missions.
+                        </p>
+                    </div>
+                    <div class="benefit-card">
+                        <h3>🔬 Longer Missions</h3>
+                        <p>
+                            Conserving fuel allows missions to last longer and complete more science, extending the operational 
+                            lifetime of spacecraft.
+                        </p>
+                    </div>
+                </div>
+            </section>
+            
+            <section id="process">
+                <h2>How Does It Work?</h2>
+                <div class="process-steps">
+                    <ol>
+                        <li>
+                            <strong>Initial Orbit:</strong> After arriving at a planet with an atmosphere, the spacecraft uses 
+                            rockets for a brief burn to enter a highly elliptical orbit.
+                        </li>
+                        <li>
+                            <strong>Atmospheric Passes:</strong> At periapsis, the spacecraft "dips" into the thin upper atmosphere. 
+                            The spacecraft may use solar panels or other surfaces to maximize drag safely while minimizing heating.
+                        </li>
+                        <li>
+                            <strong>Repeating the Process:</strong> Several hundred passes are usually required. Each pass slows 
+                            the spacecraft a little more, gradually lowering its orbit without overheating the structure. This 
+                            process can take several months to complete.
+                        </li>
+                        <li>
+                            <strong>Final Adjustments:</strong> Once the desired orbit is reached, the spacecraft uses a small 
+                            burn to raise the lowest point of its orbit above the atmosphere, so it doesn't continue to slow down 
+                            and eventually crash.
+                        </li>
+                    </ol>
+                </div>
+            </section>
+            
+            <section id="examples">
+                <h2>Practical Examples</h2>
+                <p>
+                    Aerobraking has been successfully used in numerous space missions, particularly those exploring planets 
+                    with atmospheres:
+                </p>
+                <ul>
+                    <li><strong>Mars Global Surveyor (1997-1999):</strong> First spacecraft to use aerobraking at Mars, saving an estimated 200 kg of fuel.</li>
+                    <li><strong>Mars Odyssey (2001-2002):</strong> Used aerobraking for 76 days to reach its science orbit.</li>
+                    <li><strong>Mars Reconnaissance Orbiter (2006):</strong> Performed over 400 aerobraking passes to achieve its mapping orbit.</li>
+                    <li><strong>Magellan (1993):</strong> Successfully demonstrated aerobraking at Venus.</li>
+                    <li><strong>ExoMars Trace Gas Orbiter (2017-2018):</strong> European Space Agency's mission used aerobraking to circularize its orbit around Mars.</li>
+                </ul>
+                <p>
+                    Aerobraking is especially valuable for missions to Mars because the thin atmosphere provides enough drag 
+                    for gradual braking without excessive heating.
+                </p>
+            </section>
+            
+            <section id="challenges">
+                <h2>Challenges</h2>
+                <h3>Atmospheric Uncertainty</h3>
+                <p>
+                    Variations in atmospheric density, temperature, and weather patterns can affect how much drag is produced. 
+                    Mission controllers must carefully monitor each pass and adjust the orbit as needed.
+                </p>
+                
+                <h3>Heat and Pressure</h3>
+                <p>
+                    Although the heating isn't as extreme as atmospheric reentry, spacecraft must be designed to withstand 
+                    repeated passes through the atmosphere. The friction generates heat that must be managed carefully.
+                </p>
+                
+                <h3>Navigation Precision</h3>
+                <p>
+                    Keeping the periapsis at the correct altitude is crucial. Too low, and the spacecraft risks burning up 
+                    or crashing; too high, and the aerobraking will be ineffective and take much longer.
+                </p>
+                
+                <h3>Time Investment</h3>
+                <p>
+                    Aerobraking is not a quick process. It can take several months of careful orbital adjustments, during 
+                    which the spacecraft cannot perform its primary science mission.
+                </p>
+            </section>
+            
+            <section id="conclusion">
+                <h2>Conclusion</h2>
+                <p>
+                    Aerobraking represents an elegant solution to one of spaceflight's most fundamental challenges: changing 
+                    orbits efficiently. By leveraging the natural resistance of planetary atmospheres, spacecraft can accomplish 
+                    orbit modifications that would otherwise require enormous amounts of fuel. This technique has become a proven 
+                    and reliable method for planetary missions, particularly to Mars, and will continue to play a crucial role 
+                    in future space exploration endeavors.
+                </p>
+                <div class="highlight-box">
+                    <strong>In Summary:</strong> Aerobraking lets spacecraft use the natural resistance of an atmosphere to slow 
+                    down instead of burning precious rocket fuel—making missions more efficient, cost-effective, and allowing 
+                    for greater scientific return.
+                </div>
+            </section>
+        </main>
+        
+        <footer>
+            <p>&copy; 2025 Aerobraking Information Page | Educational Resource on Space Exploration Techniques</p>
+        </footer>
+    </div>
+</body>
+</html>
